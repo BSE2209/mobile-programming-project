@@ -27,7 +27,6 @@ internal fun InputDisplayComponent(state: CalcViewModel.ViewState) {
             .fillMaxWidth()
             .height(150.dp)
             .clip(MaterialTheme.shapes.large)
-            .padding(10.dp)
             .background(MaterialTheme.colorScheme.onBackground),
         contentAlignment = Alignment.BottomEnd
     ){
